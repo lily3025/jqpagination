@@ -9,6 +9,7 @@ jquery翻页组件，比较适用于后台管理系统，后台系统一般数�
 <script src="/存放路径/jquery.jqpagination.min.js"></script>
 
 再需要如下HTML
+/*
 <div class="pagination">
   <a href="#" class="first" data-action="first">&laquo;</a>
   <a href="#" class="previous" data-action="previous">&lsaquo;</a>
@@ -16,7 +17,7 @@ jquery翻页组件，比较适用于后台管理系统，后台系统一般数�
   <a href="#" class="next" data-action="next">&rsaquo;</a>
   <a href="#" class="last" data-action="last">&raquo;</a>
 </div>
-
+*/
 最后初始化插件
 $('.pagination').jqPagination({
   current_page: 5, //设置当前页 默认为1
