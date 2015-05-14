@@ -4,9 +4,9 @@ jquery翻页组件，比较适用于后台管理系统，后台系统一般数�
 使用说明
 
 添加 jQuery 类库、jqPagination 插件的 JS 和 CSS 文件
-<link rel="stylesheet" href="../jqpagination.css"/>
-<script src="../jquery-1.6.2.min.js"></script>
-<script src="../jquery.jqpagination.min.js"></script>
+<link rel="stylesheet" href="/存放路径/jqpagination.css"/>
+<script src="/存放路径/jquery-1.6.2.min.js"></script>
+<script src="/存放路径/jquery.jqpagination.min.js"></script>
 
 再需要如下HTML
 <div class="pagination">
