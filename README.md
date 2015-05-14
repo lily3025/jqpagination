@@ -4,12 +4,11 @@ jquery翻页组件，比较适用于后台管理系统，后台系统一般数�
 使用说明
 
 添加 jQuery 类库、jqPagination 插件的 JS 和 CSS 文件
-<link rel="stylesheet" href="jqpagination.css"/>
-<script src="jquery-1.6.2.min.js"></script>
-<script src="jquery.jqpagination.min.js"></script>
+<link rel="stylesheet" href="../jqpagination.css"/>
+<script src="../jquery-1.6.2.min.js"></script>
+<script src="../jquery.jqpagination.min.js"></script>
 
 再需要如下HTML
-<!--
 <div class="pagination">
   <a href="#" class="first" data-action="first">&laquo;</a>
   <a href="#" class="previous" data-action="previous">&lsaquo;</a>
@@ -17,7 +16,7 @@ jquery翻页组件，比较适用于后台管理系统，后台系统一般数�
   <a href="#" class="next" data-action="next">&rsaquo;</a>
   <a href="#" class="last" data-action="last">&raquo;</a>
 </div>
--->
+
 最后初始化插件
 $('.pagination').jqPagination({
   current_page: 5, //设置当前页 默认为1
