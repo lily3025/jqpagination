@@ -1,0 +1,11 @@
+.pagination{border:1px solid #ddd;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}
+.pagination a{display:block;float:left;height:20px;width:20px;color:#555;text-align:center;text-decoration:none;font-family:Times,'Times New Roman',Georgia,Palatino;font-weight:bold;font-size:16px;outline:0;vertical-align:middle;}
+.pagination a:hover,.pagination a:focus,.pagination a:active{background-color: #eee;}
+.pagination a:first-child{border-radius:2px 0 0 2px;-moz-border-radius:2px 0 0 2px;-webkit-border-radius:2px 0 0 2px}
+.pagination a:last-child{border-radius:0 2px 2px 0;-moz-border-radius:0 2px 2px 0;-webkit-border-radius:0 2px 2px 0}
+.pagination a{border-right:1px solid #ddd;border-left:1px solid #ddd}.pagination a:first-child{border:0}
+.pagination a:last-child{border:0}
+.pagination input{border:0;float:left;text-align:center;height:20px;outline:0;vertical-align:middle;width:200px;padding:0;margin:0}.gigantic.pagination{margin:10px 0 40px auto}
+.gigantic.pagination a{height:30px;width:60px;font-size:25px;line-height:25px;color: #0088cc;}
+.gigantic.pagination input{width:230px;height:30px;font-size:16px;color: #08c;}
+.log{display:none;background-color:#EDEDED;border:1px solid #B4B4B4;height:300px;width:524px;overflow:auto;margin-left:0;list-style:none;padding:10px;li{margin-top:0;margin-bottom:5px}}
